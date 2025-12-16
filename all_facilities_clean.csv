@@ -1,0 +1,222 @@
+"source","facility_type","name","lat","lon","address"
+"Recreation","public park","Viewing Park",41.6674918720005,-86.2363446469997,"900 Northside Blvd, South Bend, Indiana 46617"
+"Recreation","other","Potawatomi Zoo",41.6712716070005,-86.2207712009996,"500 South Greenlawn Avenue, South Bend, Indiana 46615"
+"Recreation","public park","Vassar Park",41.6894837530005,-86.2649324279997,"1100 Sherman Avenue, South Bend, Indiana 46616"
+"Recreation","public park","Kennedy Park",41.6846746480005,-86.2883858329997,"2700 Westmoor Street, South Bend, Indiana 46628"
+"Recreation","other","East Race Trail",41.6841137480005,-86.2364985169997,"935 Niles, South Bend, Indiana 46617"
+"Recreation","public park","Fredrickson Park",41.6905863180005,-86.2301473389996,"1330 South Bend Avenue, South Bend, Indiana 46617"
+"Recreation","other","Jon Hunt Memorial Plaza",41.6783106840005,-86.2504509539997,"214 Michigan Street, South Bend, Indiana 46601"
+"Recreation","public park","Potawatomi Park",41.6675365100005,-86.2179095949996,"2000 Wall Street, South Bend, Indiana 46615"
+"Recreation","public park","O'Brien Park",41.6310119820005,-86.2468788709996,"321 Walter Street, South Bend, Indiana 46614"
+"Recreation","public park","Fremont Park",41.6993638400005,-86.2849723149997,"1800 North Fremont Street, South Bend, Indiana 46628"
+"Recreation","public park","Shetterley Park",41.6890971590005,-86.2596479009997,"1044 Riverside Drive, South Bend, Indiana 46616"
+"Recreation","public park","Kelly Park",41.6884330280001,-86.240575441,"718 Howard Street, South Bend, Indiana 46617"
+"Recreation","public park","Martin Luther King Jr.",41.679383204,-86.274170845,"1522 W. Linden Avenue, South Bend, Indiana 46628"
+"Recreation","public park","Ponader Park",41.7086707510001,-86.2138638709999,"54054 Maple Lane Avenue, South Bend, Indiana 46635"
+"Recreation","public park","Riverside Park",41.727347272,-86.269300363,"3840 Riverside Drive, South Bend, Indiana 46628"
+"Recreation","public park","Rum Village Annex",41.6468285870001,-86.273117004,"2700 Gertrude St, South Bend, Indiana 46614"
+"Recreation","public park","Northside Blvd. Riverwalk",41.6613395850005,-86.2291250939996,"1350 Northside Blvd, South Bend, Indiana 46617"
+"Recreation","other","City Cemetery",41.6776649860005,-86.2677648919997,"214 Elm Street, South Bend, Indiana 46616"
+"Recreation","public park","Westhaven Park",41.6904709370005,-86.3059905639997,"1220 Sussex Drive, South Bend, Indiana 46628"
+"Recreation","public park","Gwen Stiver Memorial Park",41.6740207370005,-86.2503000039997,"230 Michigan Street, South Bend, Indiana 46601"
+"Recreation","golf course","Studebaker Golf Course",41.6541166300005,-86.2596433849997,"718 Calvert Street, South Bend, Indiana 46613"
+"Recreation","golf course","Erskine Golf Course",41.6323767620005,-86.2347458889997,"4200 Miami Road, South Bend, Indiana 46614"
+"Recreation","public park","Belleville Park",41.6600322600005,-86.3219828029997,"1300 S. Mayflower Road, South Bend, Indiana 46619"
+"Recreation","golf course","Blackthorn Golf Course",41.7225437710005,-86.3340657749997,"6100 Nimtz Parkway, South Bend, Indiana 46628"
+"Recreation","public park","Ryer Mini Park",41.7080112780005,-86.3076957779996,"1565 Ryer St. &nbsp;, South Bend, Indiana 46628"
+"Recreation","other","Bowman Cemetery",41.6577732820001,-86.234952054,"1700 S. Miami Street, South Bend, Indiana 46613"
+"Recreation","public park","LaSalle Landing Park",41.668178852,-86.32130868,"2800 Portage, South Bend, Indiana 46619"
+"Recreation","public park","LaSalle Park",41.6756091460001,-86.295585806,"3419 W. Washington, South Bend, Indiana 46619"
+"Recreation","public park","Leeper Park",41.6853021150001,-86.250494244,"820 N. Michigan St., South Bend, Indiana 46616"
+"Recreation","public park","Marshall Park",41.6366607530001,-86.223109605,"3725 Springbrook, South Bend, Indiana 46614"
+"Recreation","public park","Muessel Grove Park",41.690942023,-86.273983159,"1200 Wilbur Street, South Bend, Indiana 46628"
+"Recreation","public park","Rum Village Park",41.6468285870001,-86.273117004,"2700 Gertrude St, South Bend, Indiana 46614"
+"Recreation","public park","Brownfield Park",41.6932316600005,-86.2644975459997,"1022 Angela Blvd, South Bend, Indiana 46616"
+"Recreation","golf course","Elbel Golf Course",41.7445257930005,-86.3830327709997,"26595 Auten Road, South Bend, Indiana 46628"
+"Recreation","public park","Booth Tarkington",41.6987123030005,-86.2019078659997,"1722 Rerick Drive, South Bend, Indiana 46635"
+"Recreation","public park","Boehm Park",41.694669059,-86.202794812,"3205 Edison Road, South Bend, Indiana 46617"
+"Recreation","public park","Boland Park",41.708009518,-86.307769642,"3000 Bendix, South Bend, Indiana 46628"
+"Recreation","public park","Coquillard Park",41.6859822590001,-86.230816512,"1300 Campaeu, South Bend, Indiana 46617"
+"Recreation","public park","East Race Waterway",41.677401279,-86.244323289,"126 N. Niles, South Bend, Indiana 46617"
+"Recreation","public park","Edison Park",41.6893208130001,-86.2133815619999,"2400 Rockne Dr, South Bend, Indiana 46615"
+"Recreation","public park","Helman Mini Park",41.6898799030001,-86.20093431,"1118 Helmen, South Bend, Indiana 46615"
+"Recreation","public park","Keller Park",41.7027801350001,-86.260425861,"1935 Riverside Drive, South Bend, Indiana 46616"
+"Recreation","public park","Nokomis Park",41.6900532720001,-86.254169432,"310 Wakewa, South Bend, Indiana 46617"
+"Recreation","public park","Parkovash Park",41.692074377,-86.252747003,"215 Parkovash Avenue, South Bend, Indiana 46617"
+"Recreation","public park","Pier Park",41.6767998970001,-86.248729278,"124 N. St. Joseph Street, South Bend, Indiana 46601"
+"Recreation","public park","Seitz Park",41.677774234,-86.249768012,"340 E. Colfax, South Bend, Indiana 46601"
+"Recreation","public park","Veteran's Memorial Park",41.6602624860001,-86.225342337,"1501 Northside Blvd, South Bend, Indiana 46615"
+"Recreation","public park","Howard Park",41.6785593220001,-86.241436823,"219 S. St. Louis Blvd, South Bend, Indiana 46617"
+"Recreation","public park","Pinhook Park",41.713873929,-86.2712031899999,"2801 Riverside Drive, South Bend, Indiana 46616"
+"Recreation","public park","Plaza Park",41.6719797110001,-86.245725684,"400 Columbia Street, South Bend, Indiana 46601"
+"Recreation","public park","Pulaski Park",41.6701835150001,-86.270118686,"1308 Huron, South Bend, Indiana 46619"
+"Recreation","public park","Randolph Mini Park",41.6558582180001,-86.22014035,"1809 Randolph Street, South Bend, Indiana 46613"
+"Recreation","public park","Ravina Park",41.659412129,-86.2381902019999,"1522 Lebanon St., South Bend, Indiana 46613"
+"Recreation","public park","River Manor Park",41.727566487,-86.273642282,"3811 Glenview Dr., South Bend, Indiana 46628"
+"Recreation","public park","Sorin Mini Park",41.684633445,-86.2007712939999,"3366 Sorin Street, South Bend, Indiana 46615"
+"Recreation","public park","Southeast Neighborhood Park",41.6625875440001,-86.243581219,"503 Wenger Street, South Bend, Indiana 46601"
+"Recreation","public park","Four Winds Field",41.6695983080001,-86.2535800649999,"301 W. South St., South Bend, Indiana 46601"
+"Recreation","public park","Voorde Park",41.697308396,-86.297653934,"3433 Keller St., South Bend, Indiana 46628"
+"Recreation","public park","Walker Field Park",41.6510886820001,-86.270718538,"2212 S. Walnut Street, South Bend, Indiana 46613"
+"Recreation","public park","Woodlawn Park",41.7057429590001,-86.267954459,"2166 Riverside Drive, South Bend, Indiana 46616"
+"Recreation","public park","Lincoln Plaza Mini Park",41.6960662490001,-86.297281663,"1601 Ryer St., South Bend, Indiana 46628"
+"Recreation","public park","Newman Recreation Center",41.685080085,-86.235376973,"727 S. Eddy St., South Bend, Indiana 46615"
+"Schools","private school","Messiah Christian Academy",41.6118478999696,-86.2260664541098,"Life Church, York Road, Crest Manor Addition, South Bend, Saint Joseph County, Indiana, 46614, United States"
+"Schools","public school","Harrison Primary Center",41.6701399723412,-86.2947804490837,"Benjamin Harrison Elementary School, South Lake Street, LaSalle Park, South Bend, Saint Joseph County, Indiana, 46619, United States"
+"Schools","public school","Lincoln Primary Center",41.6558121493696,-86.2263368729333,"Lincoln Elementary School, South Twyckenham Drive, Miami Village, South Bend, Saint Joseph County, Indiana, 46614, United States"
+"Schools","public school","Muessel Primary Center",41.6885826745195,-86.268050853703,"Muessel Elementary School, Cleveland Avenue, South Bend, Saint Joseph County, Indiana, 46616, United States"
+"Schools","public school","Hamilton Traditional School",41.620763534596,-86.2266412039599,"Jackson Road, Crest Manor Addition, South Bend, Saint Joseph County, Indiana, 46614, United States"
+"Schools","public school","McKinley Primary Center",41.6790896080398,-86.2197622047894,"McKinley Elementary School, East Colfax Avenue, South Bend, Saint Joseph County, Indiana, 46615, United States"
+"Schools","public school","Monroe Primary Center",41.6418904777608,-86.2451686980082,"James Monroe Elementary School, Carroll Street, South Bend, Saint Joseph County, Indiana, 46614, United States"
+"Schools","private school","Veritas Academy",41.6789300229444,-86.2389895914452,"East LaSalle Avenue, South Bend, Saint Joseph County, Indiana, 46617, United States"
+"Schools","private school","Corpus Christi Parish School",41.7154747579594,-86.2870177009421,"Tomahawk Trail, South Bend, Saint Joseph County, Indiana, 46628, United States"
+"Schools","private school","Holy Cross School",41.6884294460803,-86.2731697668192,"Holy Cross School, California Avenue, North Shore Triangle, South Bend, Saint Joseph County, Indiana, 46616, United States"
+"Schools","private school","South Bend Junior Academy",41.6496267423944,-86.2172362307352,"East Altgeld Street, Miami Village, South Bend, Saint Joseph County, Indiana, 46613, United States"
+"Schools","private school","St. Adalbert's",41.6697159938263,-86.2841007761707,"West Grace Street, Westside, South Bend, Saint Joseph County, Indiana, 46601, United States"
+"Schools","private school","St. Anthony de Padua",41.6722228132994,-86.2141805348697,"South Ironwood Drive, South Bend, Saint Joseph County, Indiana, 46615, United States"
+"Schools","private school","St. John the Baptist Catholic School",41.6909667079881,-86.2998055297463,"Saint Johns Way, South Bend, Saint Joseph County, Indiana, 46628, United States"
+"Schools","private school","St. Joseph Grade School",41.6786391273092,-86.2419104568,"Church Place, South Bend, Saint Joseph County, Indiana, 46617, United States"
+"Schools","private school","St. Matthew's Cathedral School",41.6565537664496,-86.235803282012,"Miami Street, Southeast, South Bend, Saint Joseph County, Indiana, 46613, United States"
+"Schools","private school","Stanley Clark School",41.6423303282425,-86.2370741688934,"Stanley Clark School, East Donmoyer Avenue, South Bend, Saint Joseph County, Indiana, 46614, United States"
+"Schools","public school","Dickinson Intermediate Center",41.6917392616101,-86.3091252122899,"Woodland Avenue, South Bend, Saint Joseph County, Indiana, 46628, United States"
+"Schools","public school","Edison Intermediate Center",41.6901682033764,-86.2087138320283,"East Rockne Drive, Edison Park, South Bend, Saint Joseph County, Indiana, 46615, United States"
+"Schools","public school","Jackson Intermediate Center",41.6230203120139,-86.2404008338608,"Andrew Jackson Middle School, Jackson Road, Crest Manor Addition, South Bend, Saint Joseph County, Indiana, 46614, United States"
+"Schools","public school","Jefferson Intermediate Center",41.6709837108693,-86.2329553655048,"Jefferson Intermediate Center, East South Street, Edgewater, South Bend, Saint Joseph County, Indiana, 46615, United States"
+"Schools","public school","Marshall Intermediate Center",41.6362205221594,-86.224959790825,"John Marshall Elementary School, Sullivan Court, South Bend, Saint Joseph County, Indiana, 46614, United States"
+"Schools","public school","Navarre Intermediate Center",41.6679440862929,-86.313232273569,"Pierre Navarre Middle School, Fairway Street, South Bend, Saint Joseph County, Indiana, 46619, United States"
+"Schools","private school","Trinity",41.6759636546373,-86.2217552757005,"Trinity School at Greenlawn, East Jefferson Boulevard, Edgewater, South Bend, Saint Joseph County, Indiana, 46615, United States"
+"Schools","private school","The Rabbi Naftali Riff Yeshiva",41.6413375581782,-86.2407468654304,"High Street, South Bend, Saint Joseph County, Indiana, 46614, United States"
+"Schools","public school","Washington High School",41.6755286996434,-86.3138164646637,"Washington High School, Bellewood Drive, South Bend, Saint Joseph County, Indiana, 46619, United States"
+"Schools","private school","Community Baptist Christian School",41.6133386608791,-86.2373161498098,"Miami Street, Crest Manor Addition, South Bend, Saint Joseph County, Indiana, 46614, United States"
+"Schools","private school","Alphabet Academy",41.6584499867206,-86.2300025347939,"1301, East Indiana Avenue, Miami Village, South Bend, Saint Joseph County, Indiana, 46613, United States"
+"Schools","private school","Angle Care Learning Center",41.6619494809472,-86.3215860271083,"South Mayflower Road, South Bend, Saint Joseph County, Indiana, 46619, United States"
+"Schools","private school","Antioch Missionary Baptist Church",41.650597344128,-86.27231695305,"Antioch Missionary Baptist Church, Morris Street, Rum Village, South Bend, Saint Joseph County, Indiana, 46613, United States"
+"Schools","private school","Apostolic Temple Church",41.651513283527,-86.216821083423,"East Ewing Avenue, Miami Village, South Bend, Saint Joseph County, Indiana, 46546, United States"
+"Schools","private school","Beary Best Day Care",41.680929150848,-86.2840092257365,"2413, Kenwood Avenue, Kennedy Park, South Bend, Saint Joseph County, Indiana, 46628, United States"
+"Schools","private school","Believers Child Care Ministry",41.6515977203034,-86.2788413792866,"Believers Church of God in Christ, Prairie Avenue, Rum Village, South Bend, Saint Joseph County, Indiana, 46613, United States"
+"Schools","private school","Chr. Tabernacle Daycare",41.7000355836588,-86.1981332687682,"Hickory Road, Mishawaka, Saint Joseph County, Indiana, 46635, United States"
+"Schools","private school","Christ Temple Daycare",41.6617956018677,-86.2494851425875,"Paris Street, Southeast, South Bend, Saint Joseph County, Indiana, 46613, United States"
+"Schools","private school","Circle of Mercy Day Nursery",41.6754413065547,-86.2568786647202,"South Taylor Street, Near West Side, South Bend, Saint Joseph County, Indiana, 46601, United States"
+"Schools","private school","El Campito",41.6739918003036,-86.2648874737593,"Thomas Street, Near West Side, South Bend, Saint Joseph County, Indiana, 46601, United States"
+"Schools","private school","Emanuel Day Care MInistry",41.6792722667119,-86.2564252843738,"West LaSalle Avenue, Near West Side, South Bend, Saint Joseph County, Indiana, 46616, United States"
+"Schools","private school","God's Little Creation",41.6800032136031,-86.2576102252004,"436, Lincolnway West, Near West Side, South Bend, Saint Joseph County, Indiana, 46601, United States"
+"Schools","private school","Kidz Kompany",41.6940048553355,-86.2906239183312,"2953, Elwood Avenue, South Bend, Saint Joseph County, Indiana, 46628, United States"
+"Schools","private school","La Petite Academy",41.6825409794291,-86.2491985212577,"SR 933;BUS US 31, South Bend, Saint Joseph County, Indiana, 46617, United States"
+"Schools","private school","Kingdom Christian Center Daycare Ministry",41.6941007995872,-86.2810174274269,"2179, Elwood Avenue, South Bend, Saint Joseph County, Indiana, 46628, United States"
+"Schools","private school","Macedonia Missionary Baptist Church Day Care",41.7010271564479,-86.2835564134588,"North Olive Street, South Bend, Saint Joseph County, Indiana, 46616, United States"
+"Schools","private school","Southeast Christian Learning Center",41.6593527018668,-86.2465766568634,"Gloria Dei Lutheran Church, Carroll Street, Southeast, South Bend, Saint Joseph County, Indiana, 46613, United States"
+"Schools","private school","Sweet Home Daycare Ministry",41.6717384596579,-86.2567927454393,"410, South Taylor Street, Near West Side, South Bend, Saint Joseph County, Indiana, 46601, United States"
+"Schools","private school","The ABC Place",41.6801969829969,-86.2714398333065,"338, Studebaker Street, Kennedy Park, South Bend, Saint Joseph County, Indiana, 46628, United States"
+"Schools","private school","Three Bears Day Care",41.6898709785472,-86.2833927353433,"1128, North Olive Street, South Bend, Saint Joseph County, Indiana, 46628, United States"
+"Schools","private school","Vision Day Care",41.687102523749,-86.2785872647655,"California Avenue, Kennedy Park, South Bend, Saint Joseph County, Indiana, 46616, United States"
+"Schools","private school","YMCA Learning Land",41.6629326138013,-86.23190884998,"Northside Boulevard, Edgewater, South Bend, Saint Joseph County, Indiana, 46615, United States"
+"Schools","private school","American National University",41.674815536089,-86.235833193206,"East Jefferson Boulevard, Edgewater, South Bend, Saint Joseph County, Indiana, 46615, United States"
+"Schools","private school","Brown Mackie College",41.7079233785603,-86.1999327511728,"Mc Erlain Street, South Bend, Saint Joseph County, Indiana, 46635, United States"
+"Schools","public school","Coquillard Primary Center",41.690361677839,-86.3041980915878,"Alexis Coquillard Elementary School, Grove Street, South Bend, Saint Joseph County, Indiana, 46628, United States"
+"Schools","public school","Perley Primary Fine Arts Academy",41.6855792643068,-86.2317420410455,"Campeau Street, South Bend, Saint Joseph County, Indiana, 46617, United States"
+"Schools","public school","Riley High School",41.654015802942,-86.2424674244974,"James Whitcomb Riley High School, Rush Street, Southeast, South Bend, Saint Joseph County, Indiana, 46613, United States"
+"Schools","private school","St. Mary of the Assumption School",41.640028467724,-86.2803202024611,"Locust Road, South Bend, Saint Joseph County, Indiana, 46614, United States"
+"Schools","private school","Ironwood Christian School",41.6281942571045,-86.2180643527044,"Saint Joseph Valley Parkway, South Bend, Saint Joseph County, Indiana, 46540, United States"
+"Schools","private school","Success Academy",41.6874747627952,-86.2969175622348,"Success Academy South Bend, Curtiss Drive, Beacon Heights Apartments, South Bend, Saint Joseph County, Indiana, 46628, United States"
+"Public Services","emergency services","Warren Twp. Sta. 1",41.6959795230005,-86.3802049849996,"54837 Quince Road
+South Bend, Indiana 46619"
+"Public Services","emergency services","Mishawaka Fire Dept. Station #4",41.6514629920005,-86.1309619409997,"3000 Harrison Rd
+Mishawaka, Indiana 46544"
+"Public Services","emergency services","Portage Twp. Fire",41.6790101200005,-86.3243606499997,"23626 Fillmore
+South Bend, Indiana 46619"
+"Public Services","emergency services","South Bend Fire Dept. Station #10",41.6197449910005,-86.2252040219997,"5303 York Road
+South Bend, Indiana 46614"
+"Public Services","emergency services","North Liberty Fire",41.5344197320005,-86.4271202729997,"112 S. State Street
+North Liberty, Indiana 46554"
+"Public Services","public library","St. Joseph Co. Public Library North Liberty Branch",41.5373208690005,-86.4278909159997,"105 E Market St
+North Liberty, Indiana 46554"
+"Public Services","emergency services","South Bend Fire Dept. Station #4",41.6784532810005,-86.2834345729997,"220 N. Olive St.
+South Bend, Indiana 46628"
+"Public Services","public library","St. Joseph Co. Public Library Lakeville Branch",41.5254707980005,-86.2740508479997,"120 N Michigan St
+Lakeville, Indiana 46536"
+"Public Services","emergency services","South Bend Fire Dept. Station #7",41.6965305720005,-86.2705801739997,"1616 Portage Ave.
+South Bend, Indiana 46616"
+"Public Services","emergency services","Mishawaka EMS Station",41.6662209370004,-86.1778905799997,"333 E. Mishawaka Ave
+Mishawaka, Indiana 46545"
+"Public Services","emergency services","South Bend Fire Dept. Station #2",41.6800978530005,-86.2598173109997,"402 Martin Luther King Jr Dr
+South Bend, Indiana 46601"
+"Public Services","emergency services","Penn North Fire",41.6805103910005,-86.1321207709997,"13750 McKinley
+Mishawaka, Indiana 46545"
+"Public Services","emergency services","South Bend Fire Dept. Station #6",41.6718347320005,-86.3071817629997,"4302 W. Western Ave.
+South Bend, Indiana 46619"
+"Public Services","public library","St. Joseph Co. Public Library LaSalle Branch",41.6890511080005,-86.2955201739996,"3232 Ardmore Tr.
+South Bend, Indiana 46628"
+"Public Services","emergency services","Madison Twp. Fire",41.5258034720005,-86.1693985969997,"66341 SR 331
+Wyatt, Indiana 46595"
+"Public Services","emergency services","New Carlisle Fire",41.7064601110005,-86.5199666759997,"210 Michigan
+New Carlisle, Indiana 46552"
+"Public Services","emergency services","South Bend Fire Dept. Station #9",41.6657208470005,-86.2110210029996,"2520 Mishawaka Ave.
+South Bend, Indiana 46615"
+"Public Services","emergency services","South Bend Fire Dept. Station #5",41.6499311210005,-86.2815510549997,"2221 Prairie Ave.
+South Bend, Indiana 46614"
+"Public Services","public library","St. Joseph Co. Public Library Centre Township Branch",41.6076504240005,-86.2337808839997,"1150 Kern Rd
+South Bend, Indiana 46614"
+"Public Services","public library","St. Joseph Co. Public Library Tutt Branch",41.6511709770005,-86.2348905319997,"2223 Miami St.
+South Bend, Indiana 46613"
+"Public Services","emergency services","Centre Twp. Fire",41.6083372610005,-86.2531160489997,"19971 Kern Road
+South Bend, Indiana 46614"
+"Public Services","emergency services","Mishawaka Police Department",41.6621865130005,-86.1793093179996,"200 N CHURCH ST
+Mishawaka, Indiana 46544"
+"Public Services","public library","St. Joseph Co. Public Library Western Branch",41.7080112780005,-86.3076957779996,"611 Lombardy Dr
+South Bend, Indiana 46628"
+"Public Services","emergency services","New Carlisle Ambulanc",41.7064601110005,-86.5199666759997,"210 Michigan
+New Carlisle, Indiana 46552"
+"Public Services","public library","Mishawaka Public Library",41.6610869600005,-86.1790424659997,"209 Lincoln Way East
+Mishawaka, Indiana 46544"
+"Public Services","emergency services","Penn South Sta. 2",41.6295526030005,-86.1526771529997,"10701 Ireland Road
+Mishawaka, Indiana 46544"
+"Public Services","emergency services","Mishawaka Fire Dept. Station #3",41.7094694660005,-86.1776610129996,"333 E Douglas Road
+Mishawaka, Indiana 46645"
+"Public Services","emergency services","South Bend Fire Dept. Station #8",41.6226840600005,-86.2474783459997,"2402 Twykenham Dr.
+South Bend, Indiana 46614"
+"Public Services","emergency services","South Bend Police Department",41.6645238230005,-86.3268999889997,"101 W SAMPLE
+South Bend, Indiana 46619"
+"Public Services","emergency services","Warren Twp. Sta. 2",41.6360313790005,-86.3970284219997,"59330 Crumstown Hwy.
+South Bend, Indiana 46619"
+"Public Services","public library","St. Joseph Co. Public Library Francis Branch",41.7285409770005,-86.2170301549997,"52655 Ironwood Dr.
+South Bend, Indiana 46635"
+"Public Services","public library","St. Joseph Co. Public Library River Park Branch",41.6657208470005,-86.2166602729997,"2022 Mishawaka Av.
+South Bend, Indiana 46615"
+"Public Services","public library","Mishawaka Public Library Harris Branch",41.7470109110005,-86.1397200739997,"51446 Elm Rd
+Granger, Indiana 46530"
+"Public Services","emergency services","Lakeville Fire",41.5245043160004,-86.2765985729997,"117 N. Main
+Lakeville, Indiana 46536"
+"Public Services","emergency services","Osceola Twp. Fire",41.6644618250005,-86.0928669339997,"620 Rogers
+Osceola, Indiana 46561"
+"Public Services","emergency services","Harris Twp. Sta. 2",41.6150933350005,-86.7303996379997,"12481 Anderson
+Granger, Indiana 46350"
+"Public Services","emergency services","Clay Twp. Sta. 1",41.7233211380005,-86.2314809289996,"18776 Cleveland
+South Bend, Indiana 46637"
+"Public Services","emergency services","St. Joseph County Jail",41.6790505630005,-86.2540404609996,"701 W SAMPLE
+South Bend, Indiana 46625"
+"Public Services","emergency services","German Twp. Sta. 2",41.6971615880005,-86.3272693289997,"23747 Keller Road
+South Bend, Indiana 46628"
+"Public Services","emergency services","Clay Twp. Sta. 2",41.7453504720005,-86.2240901889996,"18355 Auten Road
+South Bend, Indiana 46637"
+"Public Services","public library","St. Joseph Co. Public Library Main Branch",41.6735435640005,-86.2518768989997,"304 S. Main St.
+South Bend, Indiana 46601"
+"Public Services","emergency services","South Bend Fire Dept. Station #11",41.7231896740005,-86.2920040459997,"3505 N. Bendix Dr.
+South Bend, Indiana 46628"
+"Public Services","public library","Mishawaka Public Library Bittersweet Branch",41.6700303830005,-86.1094910979996,"602 Bittersweet Rd.
+Mishawaka, Indiana 46544"
+"Public Services","emergency services","German Twp. Sta. 1",41.7402908010005,-86.2955708739997,"51775 Portage Road
+South Bend, Indiana 46628"
+"Public Services","public library","St. Joseph Co. Public Library German Township Branch",41.7239332010005,-86.2828226389997,"52807 Lynnewood Av
+South Bend, Indiana 46628"
+"Public Services","emergency services","Penn South Sta. 1",41.6223708320005,-86.1564108839997,"14940 Jackson Road
+Mishawaka, Indiana 46544"
+"Public Services","emergency services","South Bend Fire Dept. Station #3",41.6802207060005,-86.2207571369997,"1805 McKinley Ave.
+South Bend, Indiana 46617"
+"Public Services","emergency services","Mishawaka Fire Dept. Station #1",41.6558533770005,-86.1769238349997,"600 Union St.
+Mishawaka, Indiana 46544"
+"Public Services","emergency services","Mishawaka Fire Dept. Station #2",41.6811036600005,-86.1813756359996,"2332 N. Main St.
+Mishawaka, Indiana 46544"
+"Public Services","emergency services","Harris Twp. Sta. 1",41.7433741610005,-86.1393021889996,"13981 SR 23
+Granger, Indiana 46350"
+"Public Services","emergency services","South Bend Fire Dept.",41.6614532030005,-86.2499720789997,"1222 S. Michigan St.
+South Bend, Indiana 46601"
