@@ -1,0 +1,159 @@
+---
+title: "Final Project Processing"
+author: "Miguel Madrigal"
+date: last-modified
+format:
+    html:
+      df-print: paged
+      embed-resources: TRUE
+editor: visual
+---
+
+```{r}
+#install.packages('leaflet')
+#install.packages('janitor')
+#install.packages('tidygeocoder')
+library('ggmap')
+library('sf')
+library('leaflet')
+library('janitor')
+library('tidyverse')
+library('stringr')
+library('tidygeocoder')
+```
+
+CLEAN PARKS, LOCATIONS, FEATURES DF
+
+```{r}
+#parks, locations and features data
+parks_loc_feat<-read.csv('Parks_Locations_and_Features.csv')
+parks_loc_feat<-parks_loc_feat%>%st_as_sf(coords=c('Lon','Lat'), remove = FALSE)%>%
+  st_set_crs(value=4326)
+```
+
+```{r}
+dim(table(parks_loc_feat$Park_Type))
+```
+
+```{r}
+parks_loc_feat<-parks_loc_feat%>% clean_names()
+
+parks_loc_clean<-parks_loc_feat
+
+parks_loc_clean<-parks_loc_clean%>%mutate(source='Recreation')%>% rename(c('name'=park_name, 'facility_type'=park_type))
+
+parks_loc_clean<-parks_loc_clean%>%select(source, facility_type, name, lat, lon, geometry, address)
+
+#change special, zoo, Cemetary, and Memorial to neighborhood park
+parks_loc_clean<-parks_loc_clean%>%mutate(facility_type=ifelse(facility_type %in% c('Cemetery', 'Special', 'Zoo', 'Memorial'), 'Other', facility_type))
+```
+
+CLEAN SCHOOL BOUND DATA
+
+```{r}
+#school locations data
+school_bound<-st_read("School_Boundaries", stringsAsFactors = FALSE) 
+```
+
+```{r}
+school_bound<-school_bound%>%clean_names()
+
+school_bound<-school_bound%>%mutate(source='Schools', address= NA)%>%rename(facility_type=school_type, name=school)
+
+#make shapes into points
+school_bound<-school_bound%>% st_centroid()
+
+coords_schools<-st_coordinates(school_bound)
+
+school_bound<-school_bound%>%mutate(lon=coords_schools[,1], lat=coords_schools[,2])
+
+#get addresses using coords
+
+school_temp<-school_bound %>%mutate(id = row_number()) %>%st_drop_geometry() %>%tidygeocoder::reverse_geocode(lat = lat, long = lon, method = "osm", address = address)
+
+school_temp<-school_temp%>%rename(address=address...9)
+
+school_bound<-school_bound%>%mutate(id=row_number())
+drop(school_bound$address)
+
+school_temp<-school_temp%>%select(id, address)
+school_bound<-left_join(x = school_bound, y = school_temp, by='id')
+school_bound<-school_bound%>%rename(address=address.y)
+
+school_clean<-school_bound%>% select('source', 'facility_type', 'name', 'lat', 'lon', 'geometry', 'address')
+
+table(school_clean$facility_type)
+```
+
+CLEAN PUBLIC FACILITIES FILE
+
+```{r}
+#public facilities file
+public_fac<-read.csv('Public_Facilities.csv')
+```
+
+```{r}
+public_fac<-public_fac%>%clean_names()
+
+public_fac<-public_fac%>%mutate(source='Public Services')
+
+public_fac<-public_fac%>%mutate(popl_addr1=str_remove(popl_addr1, "\\s*\\(.*\\)$"))
+
+
+public_fac<-public_fac%>% st_as_sf(coords = c('lat', 'lon'), crs=4326, remove = FALSE)
+
+public_fac<-public_fac%>%rename(facility_type=popl_type, name=popl_name, address=popl_addr1)
+
+public_fac_clean<-public_fac%>%select(source, facility_type, name, lat, lon, geometry, address)
+
+table(public_fac_clean$facility_type)
+```
+
+COMBINE DFs into Cume DF
+
+```{r}
+all_facilities_clean<-bind_rows(parks_loc_clean, school_clean, public_fac_clean)
+all_facilities_clean<-all_facilities_clean%>%mutate(facility_type=str_to_lower(facility_type))
+all_facilities_clean<-all_facilities_clean%>%mutate(facility_type= case_when(facility_type=='public'~'public school', facility_type=='private'~'private school', TRUE ~facility_type))
+
+#make more general labels to keep map interpretable
+all_facilities_clean<-all_facilities_clean%>%mutate(facility_type= case_when(facility_type=='block park'~'public park', facility_type=='community park'~'public park', facility_type=='neighborhood park'~'public park', facility_type=='fire station'~'emergency services', facility_type=='police station'~'emergency services', facility_type=='library'~'public library', facility_type=='misc outdoor activities'~'misc recreation', TRUE ~facility_type))
+
+table(all_facilities_clean$facility_type)
+```
+
+```{r}
+#fix geometry cols
+all_facilities_clean <- all_facilities_clean %>%st_drop_geometry() %>%st_as_sf(coords = c("lon", "lat"), crs = 4326, remove = FALSE)
+```
+
+```{r}
+all_facilities_clean%>%count(facility_type)
+```
+
+```{r}
+all_facilities_clean <- all_facilities_clean %>%
+  st_drop_geometry() %>%                         # remove sf geometry col
+  mutate(
+    lat = as.numeric(lat),
+    lon = as.numeric(lon)
+  ) %>%
+  select(source, facility_type, name, lat, lon, address)
+
+write.csv(all_facilities_clean,
+          "../datasets/all_facilities_clean.csv",
+          row.names = FALSE,
+          quote = TRUE)
+```
+
+```{r}
+leaflet(all_facilities_clean) %>%
+  addProviderTiles("CartoDB.Positron") %>%
+  addCircleMarkers(
+    #lng = ~lon,
+   # lat=~lat,
+    radius = 5,
+    stroke = FALSE,
+    fillOpacity = 1,
+    popup = ~paste0("<b>", name, "</b><br>Type: ", facility_type))
+```
